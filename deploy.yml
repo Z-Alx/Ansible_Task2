@@ -1,0 +1,16 @@
+---
+- name: Test2
+  hosts: all
+  become: yes
+
+  tasks:
+
+   - name: Ping servers
+     ping:
+###
+   - debug:
+      var: ansible_distribution
+###
+   - name: Install htop
+     apt: name=htop
+###
