@@ -1,0 +1,9 @@
+For Ubuntu 18.04
+
+
+1. Перейти на страницу https://github.com/Z-Alx/Ansible_Task2 и скачать архив на ПК где будетa ansible master, или git clone https://github.com/Z-Alx/	Ansible_Task2https://github.com/Z-Alx/Ansible_Task2.git
+
+2. Подготовить сервера, добавить на них SSH ключи для подключения консолью.
+3. Добавить ip адреса целевых серверов в файл hosts.ini
+4. В файле /vars/default.yml поменять значения в "" на свои
+5. Открыть терминал и перейти в каталог /Ansible_Task2 и запустить плейбук коммандой аnsible-playbook deploy.yml
